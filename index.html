@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="生活工作台">
+  <title>生活学习工作台</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/mammoth.browser.min.js" defer></script>
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <div id="installHint" class="install-hint" hidden>
+    <span id="installText">可添加到安卓手机桌面，像 APP 一样独立打开</span>
+    <button id="installBtn" type="button">安装</button>
+    <button id="installClose" type="button" aria-label="关闭">×</button>
+  </div>
+
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">本地优先 · 安卓 PWA</p>
+      <h1>生活学习工作台</h1>
+      <p id="todayText" class="muted">加载中...</p>
+    </div>
+    <button id="exportBtn" class="icon-btn" type="button" title="导出备份">导出</button>
+  </header>
+
+  <main>
+    <section id="dashboard" class="view active" data-title="总览">
+      <div class="stats-grid">
+        <article class="stat"><strong id="statToday">0</strong><span>今日记录</span></article>
+        <article class="stat"><strong id="statStudy">0h</strong><span>学习时长</span></article>
+        <article class="stat"><strong id="statResume">0</strong><span>简历版本</span></article>
+      </div>
+      <div class="module-grid" id="moduleGrid"></div>
+      <section class="panel">
+        <div class="panel-title">
+          <h2>最近记录</h2>
+          <button id="importBtn" class="text-btn" type="button">导入备份</button>
+          <input id="importFile" type="file" accept="application/json" hidden>
+        </div>
+        <div id="recentList" class="record-list empty">暂无记录</div>
+      </section>
+    </section>
+
+    <section id="daily" class="view" data-title="每日拾光印记">
+      <form id="dailyForm" class="panel form-card">
+        <h2>记录已完成事项</h2>
+        <label>事件标题<input name="title" required placeholder="例如：完成雅思听力练习"></label>
+        <div class="two-col">
+          <label>分类<select name="category"><option>学习</option><option>工作</option><option>生活</option><option>社交</option><option>健身</option><option>理财</option><option>家务</option><option>其他</option></select></label>
+          <label>重要程度<select name="importance"><option>中</option><option>极高</option><option>高</option><option>低</option></select></label>
+        </div>
+        <div class="two-col">
+          <label>开始时间<input name="startTime" type="time"></label>
+          <label>结束时间<input name="endTime" type="time"></label>
+        </div>
+        <label>完成成果<textarea name="result" required placeholder="本次完成了什么，产出了什么"></textarea></label>
+        <label>所需物料/工具<textarea name="materials" placeholder="用到的资料、APP、工具"></textarea></label>
+        <label>后续联动<textarea name="next" placeholder="后面要接着做什么"></textarea></label>
+        <button class="primary" type="submit">保存到每日拾光</button>
+      </form>
+      <div id="dailyList" class="record-list"></div>
+    </section>
+
+    <section id="inspiration" class="view" data-title="细碎灵感备忘录">
+      <form id="inspirationForm" class="panel form-card">
+        <h2>快速记灵感</h2>
+        <label>灵感内容<textarea name="content" required placeholder="把一闪而过的想法先记下来"></textarea></label>
+        <div class="two-col">
+          <label>灵感类型<select name="kind"><option>选题</option><option>金句</option><option>方法</option><option>点子</option><option>素材</option><option>其他</option></select></label>
+          <label>跟进状态<select name="status"><option>未处理</option><option>已落地</option><option>暂搁置</option><option>已废弃</option></select></label>
+        </div>
+        <label>所属场景<input name="scene" placeholder="通勤路上 / 看书时 / 睡前"></label>
+        <button class="primary" type="submit">保存灵感</button>
+      </form>
+      <div id="inspirationList" class="record-list"></div>
+    </section>
+
+    <section id="metaphysics" class="view" data-title="玄学研习档案馆">
+      <div class="segmented" role="tablist">
+        <button class="seg active" data-meta-tab="learn" type="button">学习</button>
+        <button class="seg" data-meta-tab="case" type="button">案例</button>
+        <button class="seg" data-meta-tab="library" type="button">资料库</button>
+      </div>
+
+      <form id="metaLearnForm" class="panel form-card meta-pane active" data-meta-pane="learn">
+        <h2>玄学学习记录</h2>
+        <label>学习主题<input name="topic" required placeholder="例如：愚人的正逆位"></label>
+        <div class="two-col">
+          <label>门类<select name="category"><option>塔罗研习</option><option>八字命理</option><option>紫薇斗数</option><option>风水研习</option><option>星盘解读</option><option>玄学杂记</option></select></label>
+          <label>学习时长（分钟）<input name="minutes" type="number" min="0" inputmode="numeric" placeholder="60"></label>
+        </div>
+        <label>使用资料<input name="source" placeholder="可写塔罗牌库 / 八字资料 / 自己的资料名"></label>
+        <label>核心学习内容<textarea name="content" required></textarea></label>
+        <label>疑问卡点<textarea name="question"></textarea></label>
+        <button class="primary" type="submit">保存学习记录</button>
+      </form>
+
+      <form id="tarotCaseForm" class="panel form-card meta-pane" data-meta-pane="case">
+        <h2>塔罗实战案例</h2>
+        <label>案例主题问题<input name="question" required placeholder="例如：我是否适合继续准备这个岗位？"></label>
+        <label>问题背景<textarea name="background"></textarea></label>
+        <div class="two-col">
+          <label>使用牌阵<input name="spread" required placeholder="三张牌 / 单张 / 自定义"></label>
+          <label>案例日期<input name="date" type="date"></label>
+        </div>
+        <label>抽到的牌<input name="cards" required placeholder="例如：愚人正位；圣杯二逆位"></label>
+        <label>我的解读范<textarea name="reading" required></textarea></label>
+        <label>反馈与复盘<textarea name="review" placeholder="后续应验、偏差、理解修正"></textarea></label>
+        <button class="primary" type="submit">保存案例</button>
+      </form>
+
+      <div class="panel meta-pane" data-meta-pane="library">
+        <h2>内置资料库</h2>
+        <div class="search-row">
+          <input id="tarotSearch" placeholder="搜索牌名、关键词，例如：愚人 / 金星 / 旅行">
+          <button id="addResourceBtn" class="text-btn" type="button">新增资料</button>
+        </div>
+        <div class="library-tabs">
+          <button class="lib-tab active" data-lib="tarot" type="button">塔罗 78 张</button>
+          <button class="lib-tab" data-lib="bazi" type="button">八字资料</button>
+          <button class="lib-tab" data-lib="custom" type="button">我的资料</button>
+        </div>
+        <div id="libraryList" class="library-list"></div>
+      </div>
+      <div id="metaList" class="record-list"></div>
+    </section>
+
+    <section id="study" class="view" data-title="全科精进学习库">
+      <form id="studyForm" class="panel form-card">
+        <h2>学习记录</h2>
+        <div class="two-col">
+          <label>学习类目<select name="category"><option>雅思英语</option><option>公考</option><option>事业单位</option><option>自定义</option></select></label>
+          <label>学习时长（分钟）<input name="minutes" type="number" min="0" required inputmode="numeric"></label>
+        </div>
+        <label>学习主题<input name="topic" required></label>
+        <label>学习内容<textarea name="content" required></textarea></label>
+        <div class="two-col">
+          <label>掌握情况<select name="mastery"><option>完全掌握</option><option>模棱两可</option><option>完全不懂</option></select></label>
+          <label>效率自评<input name="score" type="number" min="1" max="10" inputmode="numeric" placeholder="1-10"></label>
+        </div>
+        <label><input name="syncDaily" type="checkbox" checked> 同步简洁成果到每日拾光</label>
+        <button class="primary" type="submit">保存学习记录</button>
+      </form>
+      <div id="studyList" class="record-list"></div>
+    </section>
+
+    <section id="viral" class="view" data-title="爆款内容解构库">
+      <form id="viralForm" class="panel form-card">
+        <h2>爆款拆解模板</h2>
+        <label>内容标题<input name="title" required></label>
+        <label>来源链接<input name="url" type="url" placeholder="粘贴视频/小说/图文链接"></label>
+        <div class="two-col">
+          <label>内容类型<select name="type"><option>短视频</option><option>长视频</option><option>网络小说</option><option>图文帖子</option></select></label>
+          <label>平台<input name="platform" placeholder="抖音 / 小红书 / 起点"></label>
+        </div>
+        <label>开头钩子<textarea name="hook" required placeholder="前 3 秒台词 / 前 50 字"></textarea></label>
+        <label>结构拆解<textarea name="structure" placeholder="钩子-递进-收尾 / 问题-方案-证明"></textarea></label>
+        <label>爆火原因<textarea name="reason" placeholder="情绪共鸣、信息差、身份认同、社交货币等"></textarea></label>
+        <label>可复用钩子公式<textarea name="formula" required placeholder="抽象成填空模板"></textarea></label>
+        <button class="primary" type="submit">保存拆解</button>
+      </form>
+      <div id="viralList" class="record-list"></div>
+    </section>
+
+    <section id="resume" class="view" data-title="简历修改库">
+      <div class="panel form-card">
+        <h2>上传并解析原始简历</h2>
+        <p class="muted small">优先支持 PDF 与 Word `.docx`。旧版 `.doc` 浏览器无法稳定解析，可先另存为 `.docx` 或复制文本。</p>
+        <input id="resumeFile" type="file" accept=".pdf,.docx,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain">
+        <button id="parseResumeBtn" class="primary" type="button">解析并保存为原始简历</button>
+        <label>解析出的简历文本<textarea id="resumeText" placeholder="也可以直接复制文本到这里"></textarea></label>
+        <button id="saveRawResumeBtn" class="secondary" type="button">保存文本为原始简历</button>
+      </div>
+
+      <form id="resumeVersionForm" class="panel form-card">
+        <h2>按岗位生成定制版本</h2>
+        <label>目标岗位<input name="role" required placeholder="例如：新媒体内容运营"></label>
+        <label>岗位 JD<textarea name="jd" required placeholder="粘贴岗位要求"></textarea></label>
+        <label>公司/单位<input name="company" placeholder="可选"></label>
+        <button class="primary" type="submit">生成并保存定制简历</button>
+      </form>
+
+      <div class="panel">
+        <div class="panel-title">
+          <h2>已保存简历版本</h2>
+          <button id="downloadResumeBtn" class="text-btn" type="button">下载当前版本</button>
+        </div>
+        <div id="resumeList" class="record-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="主导航">
+    <button data-view="dashboard" class="active" type="button">总览</button>
+    <button data-view="daily" type="button">拾光</button>
+    <button data-view="metaphysics" type="button">玄学</button>
+    <button data-view="study" type="button">学习</button>
+    <button data-view="resume" type="button">简历</button>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

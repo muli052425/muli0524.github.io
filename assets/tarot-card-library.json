@@ -1,0 +1,1810 @@
+{
+  "version": "0.1",
+  "language": "zh-CN",
+  "note": "内置简易牌库，用于工作台快速查询；不是完整教学文本。字段尽量来自用户提供的塔罗 PDF，未明确处保留可补充位。",
+  "total": 78,
+  "cards": [
+    {
+      "id": "major-00",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "愚人",
+      "name_en": "The Fool",
+      "number": 0,
+      "keywords": [
+        "开始",
+        "冒险",
+        "大胆",
+        "天真",
+        "潜力",
+        "漂泊",
+        "旅行"
+      ],
+      "upright": "开始、冒险、大胆、天真、潜力、漂泊、旅行",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "风",
+      "element": "风",
+      "kabbalah": {
+        "hebrew_letter": "Aleph",
+        "life_tree_path": "Aleph 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-01",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "魔术师",
+      "name_en": "The Magician",
+      "number": 1,
+      "keywords": [
+        "创造力",
+        "沟通",
+        "技能",
+        "主动",
+        "万事俱备"
+      ],
+      "upright": "创造力、沟通、技能、主动、万事俱备",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "水星",
+      "element": "风",
+      "kabbalah": {
+        "hebrew_letter": "Beth",
+        "life_tree_path": "Beth 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-02",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "女祭司",
+      "name_en": "The High Priestess",
+      "number": 2,
+      "keywords": [
+        "静止",
+        "直觉",
+        "智慧",
+        "神秘",
+        "内在声音"
+      ],
+      "upright": "静止、直觉、智慧、神秘、内在声音",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "月亮",
+      "element": "水",
+      "kabbalah": {
+        "hebrew_letter": "Gimel",
+        "life_tree_path": "Gimel 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-03",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "皇后",
+      "name_en": "The Empress",
+      "number": 3,
+      "keywords": [
+        "丰收",
+        "生产",
+        "创造",
+        "母爱",
+        "美",
+        "欢乐"
+      ],
+      "upright": "丰收、生产、创造、母爱、美、欢乐",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "金星",
+      "element": "土",
+      "kabbalah": {
+        "hebrew_letter": "Daleth",
+        "life_tree_path": "Daleth 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-04",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "皇帝",
+      "name_en": "The Emperor",
+      "number": 4,
+      "keywords": [
+        "父亲",
+        "权力",
+        "秩序",
+        "统治",
+        "责任"
+      ],
+      "upright": "父亲、权力、秩序、统治、责任",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "牡羊",
+      "element": "火",
+      "kabbalah": {
+        "hebrew_letter": "Heh",
+        "life_tree_path": "Heh 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-05",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "教宗",
+      "name_en": "The Hierophant",
+      "number": 5,
+      "keywords": [
+        "宗教",
+        "传统",
+        "援助",
+        "仪式",
+        "教育",
+        "规范"
+      ],
+      "upright": "宗教、传统、援助、仪式、教育、规范",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "金牛",
+      "element": "土",
+      "kabbalah": {
+        "hebrew_letter": "Vau",
+        "life_tree_path": "Vau 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-06",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "恋人",
+      "name_en": "The Lovers",
+      "number": 6,
+      "keywords": [
+        "选择",
+        "爱情",
+        "结合",
+        "人际关系",
+        "沟通"
+      ],
+      "upright": "选择、爱情、结合、人际关系、沟通",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "双子",
+      "element": "风",
+      "kabbalah": {
+        "hebrew_letter": "Zain",
+        "life_tree_path": "Zain 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-07",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "战车",
+      "name_en": "The Chariot",
+      "number": 7,
+      "keywords": [
+        "意志",
+        "自律",
+        "胜利",
+        "旅程",
+        "竞争"
+      ],
+      "upright": "意志、自律、胜利、旅程、竞争",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "巨蟹",
+      "element": "水",
+      "kabbalah": {
+        "hebrew_letter": "Cheth",
+        "life_tree_path": "Cheth 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-08",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "力量",
+      "name_en": "Strength",
+      "number": 8,
+      "keywords": [
+        "力量",
+        "勇气",
+        "信心",
+        "耐心",
+        "以柔克刚"
+      ],
+      "upright": "力量、勇气、信心、耐心、以柔克刚",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "狮子",
+      "element": "火",
+      "kabbalah": {
+        "hebrew_letter": "Teth",
+        "life_tree_path": "Teth 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-09",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "隐士",
+      "name_en": "The Hermit",
+      "number": 9,
+      "keywords": [
+        "谨慎",
+        "孤独",
+        "内省",
+        "指引",
+        "智慧"
+      ],
+      "upright": "谨慎、孤独、内省、指引、智慧",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "处女",
+      "element": "土",
+      "kabbalah": {
+        "hebrew_letter": "Yod",
+        "life_tree_path": "Yod 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-10",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "命运之轮",
+      "name_en": "Wheel of Fortune",
+      "number": 10,
+      "keywords": [
+        "转变",
+        "命运",
+        "循环",
+        "机会",
+        "时机"
+      ],
+      "upright": "转变、命运、循环、机会、时机",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "木星",
+      "element": "水",
+      "kabbalah": {
+        "hebrew_letter": "Kaph",
+        "life_tree_path": "Kaph 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-11",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "正义",
+      "name_en": "Justice",
+      "number": 11,
+      "keywords": [
+        "决定",
+        "正义",
+        "平衡",
+        "法律",
+        "因果"
+      ],
+      "upright": "决定、正义、平衡、法律、因果",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "天秤",
+      "element": "风",
+      "kabbalah": {
+        "hebrew_letter": "Lamed",
+        "life_tree_path": "Lamed 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-12",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "吊人",
+      "name_en": "The Hanged Man",
+      "number": 12,
+      "keywords": [
+        "牺牲",
+        "等待",
+        "换个角度",
+        "以退为进"
+      ],
+      "upright": "牺牲、等待、换个角度、以退为进",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "水/海王星",
+      "element": "水",
+      "kabbalah": {
+        "hebrew_letter": "Mem",
+        "life_tree_path": "Mem 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-13",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "死神",
+      "name_en": "Death",
+      "number": 13,
+      "keywords": [
+        "结束",
+        "转变",
+        "新生",
+        "放下旧阶段"
+      ],
+      "upright": "结束、转变、新生、放下旧阶段",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "天蝎",
+      "element": "水",
+      "kabbalah": {
+        "hebrew_letter": "Nun",
+        "life_tree_path": "Nun 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-14",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "节制",
+      "name_en": "Temperance",
+      "number": 14,
+      "keywords": [
+        "中庸",
+        "调和",
+        "沟通",
+        "教学",
+        "旅行"
+      ],
+      "upright": "中庸、调和、沟通、教学、旅行",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "射手",
+      "element": "火",
+      "kabbalah": {
+        "hebrew_letter": "Samekh",
+        "life_tree_path": "Samekh 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-15",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "恶魔",
+      "name_en": "The Devil",
+      "number": 15,
+      "keywords": [
+        "欲望",
+        "束缚",
+        "沉迷",
+        "物质主义"
+      ],
+      "upright": "欲望、束缚、沉迷、物质主义",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "魔羯",
+      "element": "土",
+      "kabbalah": {
+        "hebrew_letter": "Ayin",
+        "life_tree_path": "Ayin 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-16",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "塔",
+      "name_en": "The Tower",
+      "number": 16,
+      "keywords": [
+        "剧变",
+        "灾难",
+        "破坏",
+        "天启",
+        "结构崩塌"
+      ],
+      "upright": "剧变、灾难、破坏、天启、结构崩塌",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "火星",
+      "element": "火",
+      "kabbalah": {
+        "hebrew_letter": "Peh",
+        "life_tree_path": "Peh 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-17",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "星星",
+      "name_en": "The Star",
+      "number": 17,
+      "keywords": [
+        "宁静",
+        "和平",
+        "信心",
+        "希望",
+        "疗愈"
+      ],
+      "upright": "宁静、和平、信心、希望、疗愈",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "水瓶",
+      "element": "风",
+      "kabbalah": {
+        "hebrew_letter": "Tzaddi",
+        "life_tree_path": "Tzaddi 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-18",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "月亮",
+      "name_en": "The Moon",
+      "number": 18,
+      "keywords": [
+        "幻觉",
+        "不安",
+        "恐惧",
+        "神秘",
+        "潜意识"
+      ],
+      "upright": "幻觉、不安、恐惧、神秘、潜意识",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "双鱼",
+      "element": "水",
+      "kabbalah": {
+        "hebrew_letter": "Qoph",
+        "life_tree_path": "Qoph 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-19",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "太阳",
+      "name_en": "The Sun",
+      "number": 19,
+      "keywords": [
+        "成功",
+        "自由",
+        "快乐",
+        "团体",
+        "光明"
+      ],
+      "upright": "成功、自由、快乐、团体、光明",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "太阳",
+      "element": "火",
+      "kabbalah": {
+        "hebrew_letter": "Resh",
+        "life_tree_path": "Resh 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-20",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "审判",
+      "name_en": "Judgement",
+      "number": 20,
+      "keywords": [
+        "召唤",
+        "决定",
+        "解放",
+        "再生",
+        "业力"
+      ],
+      "upright": "召唤、决定、解放、再生、业力",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "火要素",
+      "element": "火/水",
+      "kabbalah": {
+        "hebrew_letter": "Shin",
+        "life_tree_path": "Shin 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "major-21",
+      "arcana": "大阿尔卡纳",
+      "name_zh": "世界",
+      "name_en": "The World",
+      "number": 21,
+      "keywords": [
+        "完成",
+        "完整",
+        "成功",
+        "成就",
+        "旅行"
+      ],
+      "upright": "完成、完整、成功、成就、旅行",
+      "reversed": "正位能量受阻、过度或不足；结合具体问题判断，不建议初学阶段机械套用。",
+      "astrology": "土星",
+      "element": "土/风",
+      "kabbalah": {
+        "hebrew_letter": "Tau",
+        "life_tree_path": "Tau 路径（PDF 提供希伯来字母，具体生命之树路径可按后续体系补充）"
+      },
+      "source": "塔罗葵花宝典 PDF：牌义手册 + 大牌外挂参考表"
+    },
+    {
+      "id": "wands-一",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "一",
+      "name_zh": "权杖一",
+      "name_en": "Wands 一",
+      "keywords": [
+        "新行动",
+        "创造",
+        "机会",
+        "灵感"
+      ],
+      "upright": "新行动、创造、机会、灵感",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "牡羊/狮子/射手（牌组对应）",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Kether/王冠",
+        "life_tree_path": "Kether/王冠 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-二",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "二",
+      "name_zh": "权杖二",
+      "name_en": "Wands 二",
+      "keywords": [
+        "权力",
+        "胆识",
+        "计划",
+        "决定"
+      ],
+      "upright": "权力、胆识、计划、决定",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "牡羊 3月21日-3月30日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Chokmah/智慧",
+        "life_tree_path": "Chokmah/智慧 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-三",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "三",
+      "name_zh": "权杖三",
+      "name_en": "Wands 三",
+      "keywords": [
+        "贸易",
+        "领导",
+        "远见",
+        "合作",
+        "探索"
+      ],
+      "upright": "贸易、领导、远见、合作、探索",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "牡羊 3月31日-4月10日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Binah/理解",
+        "life_tree_path": "Binah/理解 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-四",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "四",
+      "name_zh": "权杖四",
+      "name_en": "Wands 四",
+      "keywords": [
+        "稳固",
+        "欢庆",
+        "和谐",
+        "繁荣"
+      ],
+      "upright": "稳固、欢庆、和谐、繁荣",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "牡羊 4月11日-4月20日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Chesed/慈悲",
+        "life_tree_path": "Chesed/慈悲 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-五",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "五",
+      "name_zh": "权杖五",
+      "name_en": "Wands 五",
+      "keywords": [
+        "冲突",
+        "竞争",
+        "奋斗",
+        "混乱",
+        "模仿"
+      ],
+      "upright": "冲突、竞争、奋斗、混乱、模仿",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "狮子 7月22日-8月1日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Geburah/严厉",
+        "life_tree_path": "Geburah/严厉 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-六",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "六",
+      "name_zh": "权杖六",
+      "name_en": "Wands 六",
+      "keywords": [
+        "胜利",
+        "进展",
+        "自信",
+        "好消息"
+      ],
+      "upright": "胜利、进展、自信、好消息",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "狮子 8月2日-8月11日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Tiphereth/美",
+        "life_tree_path": "Tiphereth/美 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-七",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "七",
+      "name_zh": "权杖七",
+      "name_en": "Wands 七",
+      "keywords": [
+        "防御",
+        "挑战",
+        "勇气",
+        "对立",
+        "有利位置"
+      ],
+      "upright": "防御、挑战、勇气、对立、有利位置",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "狮子 8月12日-8月22日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Netzach/胜利",
+        "life_tree_path": "Netzach/胜利 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-八",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "八",
+      "name_zh": "权杖八",
+      "name_en": "Wands 八",
+      "keywords": [
+        "迅速",
+        "抵达",
+        "旅行",
+        "讯息"
+      ],
+      "upright": "迅速、抵达、旅行、讯息",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "射手 11月23日-12月2日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Hod/荣耀",
+        "life_tree_path": "Hod/荣耀 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-九",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "九",
+      "name_zh": "权杖九",
+      "name_en": "Wands 九",
+      "keywords": [
+        "警觉",
+        "固执",
+        "防御",
+        "经验",
+        "等待"
+      ],
+      "upright": "警觉、固执、防御、经验、等待",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "射手 12月3日-12月12日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Yesod/基础",
+        "life_tree_path": "Yesod/基础 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-十",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "十",
+      "name_zh": "权杖十",
+      "name_en": "Wands 十",
+      "keywords": [
+        "疲累",
+        "压力",
+        "努力",
+        "责任"
+      ],
+      "upright": "疲累、压力、努力、责任",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "射手 12月13日-12月21日",
+      "element": "火",
+      "kabbalah": {
+        "sephirah": "Malkuth/王国",
+        "life_tree_path": "Malkuth/王国 在火元素/权杖牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-侍者",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "侍者",
+      "name_zh": "权杖侍者",
+      "name_en": "Wands 侍者",
+      "keywords": [
+        "小顽童",
+        "好奇",
+        "热忱",
+        "消息"
+      ],
+      "upright": "小顽童、好奇、热忱、消息",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "无固定星座",
+      "element": "火",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-骑士",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "骑士",
+      "name_zh": "权杖骑士",
+      "name_en": "Wands 骑士",
+      "keywords": [
+        "行动派",
+        "积极",
+        "冒险",
+        "旅行"
+      ],
+      "upright": "行动派、积极、冒险、旅行",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "射手",
+      "element": "火",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-王后",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "王后",
+      "name_zh": "权杖王后",
+      "name_en": "Wands 王后",
+      "keywords": [
+        "阳光女孩",
+        "热情",
+        "快乐",
+        "财运"
+      ],
+      "upright": "阳光女孩、热情、快乐、财运",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "牡羊",
+      "element": "火",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "wands-国王",
+      "arcana": "小阿尔卡纳",
+      "suit": "权杖",
+      "rank": "国王",
+      "name_zh": "权杖国王",
+      "name_en": "Wands 国王",
+      "keywords": [
+        "开国君主",
+        "威权",
+        "创造力",
+        "领导"
+      ],
+      "upright": "开国君主、威权、创造力、领导",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "狮子",
+      "element": "火",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-一",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "一",
+      "name_zh": "圣杯一",
+      "name_en": "Cups 一",
+      "keywords": [
+        "新感情",
+        "爱",
+        "喜悦",
+        "感受",
+        "直觉"
+      ],
+      "upright": "新感情、爱、喜悦、感受、直觉",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "巨蟹/天蝎/双鱼（牌组对应）",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Kether/王冠",
+        "life_tree_path": "Kether/王冠 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-二",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "二",
+      "name_zh": "圣杯二",
+      "name_en": "Cups 二",
+      "keywords": [
+        "恋情",
+        "友谊",
+        "合作",
+        "结合"
+      ],
+      "upright": "恋情、友谊、合作、结合",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "巨蟹 6月21日-7月1日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Chokmah/智慧",
+        "life_tree_path": "Chokmah/智慧 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-三",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "三",
+      "name_zh": "圣杯三",
+      "name_en": "Cups 三",
+      "keywords": [
+        "欢庆",
+        "结盟",
+        "团体",
+        "宴会",
+        "成功"
+      ],
+      "upright": "欢庆、结盟、团体、宴会、成功",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "巨蟹 7月2日-7月11日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Binah/理解",
+        "life_tree_path": "Binah/理解 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-四",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "四",
+      "name_zh": "圣杯四",
+      "name_en": "Cups 四",
+      "keywords": [
+        "不满",
+        "拒绝",
+        "冷淡",
+        "退缩",
+        "外遇"
+      ],
+      "upright": "不满、拒绝、冷淡、退缩、外遇",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "巨蟹 7月12日-7月21日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Chesed/慈悲",
+        "life_tree_path": "Chesed/慈悲 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-五",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "五",
+      "name_zh": "圣杯五",
+      "name_en": "Cups 五",
+      "keywords": [
+        "悲伤",
+        "忧郁",
+        "失落",
+        "失望"
+      ],
+      "upright": "悲伤、忧郁、失落、失望",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天蝎 10月23日-11月1日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Geburah/严厉",
+        "life_tree_path": "Geburah/严厉 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-六",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "六",
+      "name_zh": "圣杯六",
+      "name_en": "Cups 六",
+      "keywords": [
+        "童年",
+        "回忆",
+        "思乡",
+        "照顾",
+        "馈赠"
+      ],
+      "upright": "童年、回忆、思乡、照顾、馈赠",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天蝎 11月2日-11月11日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Tiphereth/美",
+        "life_tree_path": "Tiphereth/美 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-七",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "七",
+      "name_zh": "圣杯七",
+      "name_en": "Cups 七",
+      "keywords": [
+        "迷惘",
+        "幻觉",
+        "想像",
+        "梦境",
+        "选择"
+      ],
+      "upright": "迷惘、幻觉、想像、梦境、选择",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天蝎 11月12日-11月22日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Netzach/胜利",
+        "life_tree_path": "Netzach/胜利 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-八",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "八",
+      "name_zh": "圣杯八",
+      "name_en": "Cups 八",
+      "keywords": [
+        "抛弃",
+        "不满足",
+        "行动",
+        "牺牲"
+      ],
+      "upright": "抛弃、不满足、行动、牺牲",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双鱼 2月19日-2月28日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Hod/荣耀",
+        "life_tree_path": "Hod/荣耀 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-九",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "九",
+      "name_zh": "圣杯九",
+      "name_en": "Cups 九",
+      "keywords": [
+        "享乐",
+        "得意",
+        "美梦成真"
+      ],
+      "upright": "享乐、得意、美梦成真",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双鱼 3月1日-3月10日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Yesod/基础",
+        "life_tree_path": "Yesod/基础 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-十",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "十",
+      "name_zh": "圣杯十",
+      "name_en": "Cups 十",
+      "keywords": [
+        "情感团体",
+        "家庭",
+        "满足",
+        "和谐"
+      ],
+      "upright": "情感团体、家庭、满足、和谐",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双鱼 3月11日-3月20日",
+      "element": "水",
+      "kabbalah": {
+        "sephirah": "Malkuth/王国",
+        "life_tree_path": "Malkuth/王国 在水元素/圣杯牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-侍者",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "侍者",
+      "name_zh": "圣杯侍者",
+      "name_en": "Cups 侍者",
+      "keywords": [
+        "好奇的小孩",
+        "好朋友",
+        "想象力"
+      ],
+      "upright": "好奇的小孩、好朋友、想象力",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "无固定星座",
+      "element": "水",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-骑士",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "骑士",
+      "name_zh": "圣杯骑士",
+      "name_en": "Cups 骑士",
+      "keywords": [
+        "白马王子",
+        "浪漫诗人",
+        "邀请"
+      ],
+      "upright": "白马王子、浪漫诗人、邀请",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双鱼",
+      "element": "水",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-王后",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "王后",
+      "name_zh": "圣杯王后",
+      "name_en": "Cups 王后",
+      "keywords": [
+        "修女",
+        "灵媒",
+        "女艺术家",
+        "慈爱"
+      ],
+      "upright": "修女、灵媒、女艺术家、慈爱",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "巨蟹",
+      "element": "水",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "cups-国王",
+      "arcana": "小阿尔卡纳",
+      "suit": "圣杯",
+      "rank": "国王",
+      "name_zh": "圣杯国王",
+      "name_en": "Cups 国王",
+      "keywords": [
+        "宗教家",
+        "慈善家",
+        "艺术家",
+        "温和"
+      ],
+      "upright": "宗教家、慈善家、艺术家、温和",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天蝎",
+      "element": "水",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-一",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "一",
+      "name_zh": "宝剑一",
+      "name_en": "Swords 一",
+      "keywords": [
+        "新挑战",
+        "极端",
+        "理智",
+        "决心"
+      ],
+      "upright": "新挑战、极端、理智、决心",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天秤/水瓶/双子（牌组对应）",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Kether/王冠",
+        "life_tree_path": "Kether/王冠 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-二",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "二",
+      "name_zh": "宝剑二",
+      "name_en": "Swords 二",
+      "keywords": [
+        "逃避",
+        "抗拒",
+        "对立",
+        "僵局",
+        "紧张"
+      ],
+      "upright": "逃避、抗拒、对立、僵局、紧张",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天秤 9月23日-10月2日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Chokmah/智慧",
+        "life_tree_path": "Chokmah/智慧 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-三",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "三",
+      "name_zh": "宝剑三",
+      "name_en": "Swords 三",
+      "keywords": [
+        "悲伤",
+        "失落",
+        "延迟"
+      ],
+      "upright": "悲伤、失落、延迟",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天秤 10月3日-10月12日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Binah/理解",
+        "life_tree_path": "Binah/理解 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-四",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "四",
+      "name_zh": "宝剑四",
+      "name_en": "Swords 四",
+      "keywords": [
+        "休息",
+        "消极",
+        "沉思",
+        "准备",
+        "隐遁"
+      ],
+      "upright": "休息、消极、沉思、准备、隐遁",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天秤 10月13日-10月22日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Chesed/慈悲",
+        "life_tree_path": "Chesed/慈悲 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-五",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "五",
+      "name_zh": "宝剑五",
+      "name_en": "Swords 五",
+      "keywords": [
+        "无谓的胜利",
+        "自私",
+        "失落",
+        "争执",
+        "屈辱"
+      ],
+      "upright": "无谓的胜利、自私、失落、争执、屈辱",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "水瓶 1月20日-1月29日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Geburah/严厉",
+        "life_tree_path": "Geburah/严厉 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-六",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "六",
+      "name_zh": "宝剑六",
+      "name_en": "Swords 六",
+      "keywords": [
+        "忧郁",
+        "疗伤",
+        "痊愈",
+        "旅行"
+      ],
+      "upright": "忧郁、疗伤、痊愈、旅行",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "水瓶 1月30日-2月8日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Tiphereth/美",
+        "life_tree_path": "Tiphereth/美 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-七",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "七",
+      "name_zh": "宝剑七",
+      "name_en": "Swords 七",
+      "keywords": [
+        "欺诈",
+        "孤立",
+        "尝试",
+        "自信"
+      ],
+      "upright": "欺诈、孤立、尝试、自信",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "水瓶 2月9日-2月18日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Netzach/胜利",
+        "life_tree_path": "Netzach/胜利 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-八",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "八",
+      "name_zh": "宝剑八",
+      "name_en": "Swords 八",
+      "keywords": [
+        "限制",
+        "困住",
+        "恐惧",
+        "看不清"
+      ],
+      "upright": "限制、困住、恐惧、看不清",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双子 5月21日-5月31日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Hod/荣耀",
+        "life_tree_path": "Hod/荣耀 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-九",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "九",
+      "name_zh": "宝剑九",
+      "name_en": "Swords 九",
+      "keywords": [
+        "焦虑",
+        "噩梦",
+        "压力",
+        "忧心"
+      ],
+      "upright": "焦虑、噩梦、压力、忧心",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双子 6月1日-6月10日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Yesod/基础",
+        "life_tree_path": "Yesod/基础 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-十",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "十",
+      "name_zh": "宝剑十",
+      "name_en": "Swords 十",
+      "keywords": [
+        "结束",
+        "失败",
+        "痛苦",
+        "最低点"
+      ],
+      "upright": "结束、失败、痛苦、最低点",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双子 6月11日-6月20日",
+      "element": "风",
+      "kabbalah": {
+        "sephirah": "Malkuth/王国",
+        "life_tree_path": "Malkuth/王国 在风元素/宝剑牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-侍者",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "侍者",
+      "name_zh": "宝剑侍者",
+      "name_en": "Swords 侍者",
+      "keywords": [
+        "警觉",
+        "讯息",
+        "学习",
+        "试探"
+      ],
+      "upright": "警觉、讯息、学习、试探",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "无固定星座",
+      "element": "风",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-骑士",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "骑士",
+      "name_zh": "宝剑骑士",
+      "name_en": "Swords 骑士",
+      "keywords": [
+        "迅速",
+        "冲锋",
+        "激进",
+        "争辩"
+      ],
+      "upright": "迅速、冲锋、激进、争辩",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "双子",
+      "element": "风",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-王后",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "王后",
+      "name_zh": "宝剑王后",
+      "name_en": "Swords 王后",
+      "keywords": [
+        "理性",
+        "独立",
+        "清晰",
+        "批判"
+      ],
+      "upright": "理性、独立、清晰、批判",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "天秤",
+      "element": "风",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "swords-国王",
+      "arcana": "小阿尔卡纳",
+      "suit": "宝剑",
+      "rank": "国王",
+      "name_zh": "宝剑国王",
+      "name_en": "Swords 国王",
+      "keywords": [
+        "专业",
+        "判断",
+        "权威",
+        "逻辑"
+      ],
+      "upright": "专业、判断、权威、逻辑",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "水瓶",
+      "element": "风",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-一",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "一",
+      "name_zh": "钱币一",
+      "name_en": "Pentacles 一",
+      "keywords": [
+        "新资源",
+        "新机会",
+        "物质开端"
+      ],
+      "upright": "新资源、新机会、物质开端",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "金牛/处女/魔羯（牌组对应）",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Kether/王冠",
+        "life_tree_path": "Kether/王冠 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-二",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "二",
+      "name_zh": "钱币二",
+      "name_en": "Pentacles 二",
+      "keywords": [
+        "波动",
+        "选择",
+        "平衡",
+        "弹性"
+      ],
+      "upright": "波动、选择、平衡、弹性",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "魔羯 12月22日-12月30日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Chokmah/智慧",
+        "life_tree_path": "Chokmah/智慧 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-三",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "三",
+      "name_zh": "钱币三",
+      "name_en": "Pentacles 三",
+      "keywords": [
+        "合作",
+        "工艺",
+        "团队",
+        "专业"
+      ],
+      "upright": "合作、工艺、团队、专业",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "魔羯 12月31日-1月9日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Binah/理解",
+        "life_tree_path": "Binah/理解 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-四",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "四",
+      "name_zh": "钱币四",
+      "name_en": "Pentacles 四",
+      "keywords": [
+        "保守",
+        "占有",
+        "安全感",
+        "控制"
+      ],
+      "upright": "保守、占有、安全感、控制",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "魔羯 1月10日-1月19日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Chesed/慈悲",
+        "life_tree_path": "Chesed/慈悲 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-五",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "五",
+      "name_zh": "钱币五",
+      "name_en": "Pentacles 五",
+      "keywords": [
+        "贫困",
+        "失落",
+        "被排除",
+        "困境"
+      ],
+      "upright": "贫困、失落、被排除、困境",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "金牛 4月21日-4月30日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Geburah/严厉",
+        "life_tree_path": "Geburah/严厉 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-六",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "六",
+      "name_zh": "钱币六",
+      "name_en": "Pentacles 六",
+      "keywords": [
+        "施与受",
+        "理财",
+        "平衡",
+        "援助"
+      ],
+      "upright": "施与受、理财、平衡、援助",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "金牛 5月1日-5月10日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Tiphereth/美",
+        "life_tree_path": "Tiphereth/美 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-七",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "七",
+      "name_zh": "钱币七",
+      "name_en": "Pentacles 七",
+      "keywords": [
+        "等待",
+        "评估",
+        "耕耘",
+        "耐心"
+      ],
+      "upright": "等待、评估、耕耘、耐心",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "金牛 5月11日-5月20日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Netzach/胜利",
+        "life_tree_path": "Netzach/胜利 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-八",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "八",
+      "name_zh": "钱币八",
+      "name_en": "Pentacles 八",
+      "keywords": [
+        "学习",
+        "练习",
+        "技术",
+        "勤奋"
+      ],
+      "upright": "学习、练习、技术、勤奋",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "处女 8月23日-9月1日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Hod/荣耀",
+        "life_tree_path": "Hod/荣耀 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-九",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "九",
+      "name_zh": "钱币九",
+      "name_en": "Pentacles 九",
+      "keywords": [
+        "富足",
+        "独立",
+        "享受",
+        "成果"
+      ],
+      "upright": "富足、独立、享受、成果",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "处女 9月2日-9月11日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Yesod/基础",
+        "life_tree_path": "Yesod/基础 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-十",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "十",
+      "name_zh": "钱币十",
+      "name_en": "Pentacles 十",
+      "keywords": [
+        "家族",
+        "传承",
+        "财富",
+        "稳定"
+      ],
+      "upright": "家族、传承、财富、稳定",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "处女 9月12日-9月22日",
+      "element": "土",
+      "kabbalah": {
+        "sephirah": "Malkuth/王国",
+        "life_tree_path": "Malkuth/王国 在土元素/钱币牌组中的表达"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-侍者",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "侍者",
+      "name_zh": "钱币侍者",
+      "name_en": "Pentacles 侍者",
+      "keywords": [
+        "学习者",
+        "机会",
+        "务实",
+        "讯息"
+      ],
+      "upright": "学习者、机会、务实、讯息",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "无固定星座",
+      "element": "土",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-骑士",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "骑士",
+      "name_zh": "钱币骑士",
+      "name_en": "Pentacles 骑士",
+      "keywords": [
+        "勤奋",
+        "稳定",
+        "责任",
+        "执行"
+      ],
+      "upright": "勤奋、稳定、责任、执行",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "处女",
+      "element": "土",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-王后",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "王后",
+      "name_zh": "钱币王后",
+      "name_en": "Pentacles 王后",
+      "keywords": [
+        "照顾",
+        "富足",
+        "务实",
+        "身体感"
+      ],
+      "upright": "照顾、富足、务实、身体感",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "魔羯",
+      "element": "土",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    },
+    {
+      "id": "pentacles-国王",
+      "arcana": "小阿尔卡纳",
+      "suit": "钱币",
+      "rank": "国王",
+      "name_zh": "钱币国王",
+      "name_en": "Pentacles 国王",
+      "keywords": [
+        "资源",
+        "事业",
+        "财富",
+        "管理"
+      ],
+      "upright": "资源、事业、财富、管理",
+      "reversed": "对应主题受阻、过度、不足或延迟；以牌面图像和案例语境校准。",
+      "astrology": "金牛",
+      "element": "土",
+      "kabbalah": {
+        "court_element": "宫廷牌按人物性格与元素叠加理解",
+        "life_tree_path": "不设固定路径，可后续按你的体系补充"
+      },
+      "source": "塔罗葵花宝典 PDF：小牌牌义手册 + 四要素/宫廷牌/时间对应表；部分简化字段可后续手动补充"
+    }
+  ]
+}
